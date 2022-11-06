@@ -1,12 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <style>
+      body {
+        font-family: "GT Eesti Display", "Segoe UI";
+        color: #333333;
+        font-weight: bold;
+      }
+      h1 {
+        font-size: 50px;
+      }
+      button {
+        font-size: 15px;
+        padding: 20px;
+        border-radius: 30px;
+        width: inherit;
+        border: inherit;
+      }
+      button:hover{
+cursor: pointer;
+opacity: 1;
+background-color: rgb(220, 220, 220);
+      }
+      ul {
+        list-style: none;
+      }
+
+      ul li:before {
+        content: "✓";
+        font-weight: bold;
+      }
+      .container {
+        background-color: #ffffff;
+        width: 250px;
+        border: 0.2px solid #333333;
+        border-radius: 10px;
+        padding: 20px;
+        margin: 0px auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h4>Free</h4>
+      <p>
+        For individuals or very small teams just getting started with Airtable
+      </p>
+      <br />
+      <h1>Free</h1>
+      <button>Sign Up</button>
+      <div>
+      <p>Free includes:</p>
+      <ul>
+        <li>Unlimited bases</li>
+        <li>Up to 5 creators or editors</li>
+        <li>Unlimited commenter & read-only users</li>
+        <li>Interface Designer</li>
+        <li>1 extension per base</li>
+        <li>1 Sync Integration</li>
+        <li>1,200 records per base</li>
+        <li>2GB of attachments per base</li>
+      </ul>
+      </div>
+    </div>
+  </body>
 </html>
